@@ -1,0 +1,28 @@
+{
+  "name": "Node-Scale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index2.js",
+  "scripts": {
+    "test": "mocha lib/**/**.spec.js",
+    "test-e2e": "nightwatch",
+    "start": "DEBUG=http* node debug.js"
+  },
+  "keywords": [],
+  "author": "Wesley - wchia@unitedvirtualities.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.7",
+    "nan": "^2.14.0",
+    "pg": "^7.17.1",
+    "superagent": "^5.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "co-mocha": "^1.2.2",
+    "geckodriver": "^1.19.1",
+    "mocha": "^7.0.0",
+    "nightwatch": "^1.3.2"
+  }
+}
